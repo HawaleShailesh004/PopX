@@ -14,7 +14,6 @@ const SignupPage = () => {
 
   const handleSignup = (e) => {
     e.preventDefault();
-    // later: send signup API
     navigate("/profile");
   };
 
@@ -39,7 +38,7 @@ const SignupPage = () => {
           required={true}
           isStar={true}
           placeholder="Enter phone number"
-          pattern="[0-9]{10}" 
+          pattern="[0-9]{10}"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
         />
@@ -103,13 +102,11 @@ const SignupPage = () => {
           </div>
         </div>
 
-
         <Button
           text="Create Account"
           bgColor={"#6C25FF"}
           txtColor={"#fff"}
           type={"submit"}
-         
         />
       </form>
     </div>
