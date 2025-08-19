@@ -19,6 +19,10 @@
   color: #6C25FF;
 }
 
+.required-star {
+  color: #DD4A3D;
+}
+
 .input-box {
   padding: 12px;
   border: 1px solid #CBCBCB;
