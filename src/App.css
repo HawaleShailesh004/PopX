@@ -1,4 +1,6 @@
 /* App.css */
+@import url("../src/assets/styles/variables.css");
+
 * {
   margin: 0;
   padding: 0;

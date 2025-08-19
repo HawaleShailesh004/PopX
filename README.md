@@ -1,12 +1,60 @@
-# React + Vite
+# PopX - ReactJS Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a qualifier task assignment built with **React.js** based on the provided Adobe XD design.
 
-Currently, two official plugins are available:
+## Task Requirements
+- Pixel-perfect implementation of the given design.  
+- Mobile app interface centered on the webpage.  
+- Seamless navigation between pages.  
+- Code should be clean, well-formatted, and responsive.  
+- Project hosted on Vercel.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Links
+- **Live Demo:** [https://demo-popx.vercel.app/](https://demo-popx.vercel.app/)  
+- **GitHub Repository:** [https://github.com/HawaleShailesh004/PopX](https://github.com/HawaleShailesh004/PopX)  
 
-## Expanding the ESLint configuration
+##  Tech Stack
+- React.js  
+- React Router DOM  
+- CSS  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder Structure 
+
+├── public/ # Static images
+├── src/
+│ ├── components/ # Reusable components
+│ ├── pages/ # Page components (Landing, Login, Signup, Profile)
+│ ├── App.jsx # Main app with routes
+│ └── main.jsx # React DOM render entry
+├── package.json
+└── README.md
+
+
+## 🚀 Getting Started
+To run the project locally:  
+
+```bash
+# Clone the repository
+git clone https://github.com/HawaleShailesh004/PopX.git
+
+# Navigate to project directory
+cd PopX
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The app will be running at http://localhost:5173/
+
+## Author
+
+**Shailesh Hawale**
+
+- Portfolio: [shailesh-hawale-portfolio.vercel.app](https://shailesh-hawale-portfolio.vercel.app)  
+- GitHub: [HawaleShailesh004](https://github.com/HawaleShailesh004)  
+- LinkedIn: [Shailesh Hawale](https://www.linkedin.com/in/shailesh-hawale)  
+
+## ThankYou

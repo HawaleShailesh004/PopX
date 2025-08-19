@@ -2,11 +2,12 @@
 import React from "react";
 import "./InputField.css";
 
-const InputField = ({ label, type = "text", placeholder, required, isStar, value, pattern, onChange }) => {
+const InputField = ({ id, label, type = "text", placeholder, required, isStar, value, pattern, onChange }) => {
   return (
     <div className="input-container">
-      {label && <label className="input-label">{label}{isStar && <span className="required-star">*</span>}</label>}
+       {label && <label htmlFor={id} className="input-label">{label}{isStar && <span>*</span>}</label>}
       <input
+        id={id}
         type={type}
         placeholder={placeholder}
         required={required}

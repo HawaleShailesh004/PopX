@@ -1,12 +1,12 @@
-import React from "react";
-import { Outlet } from "react-router";
+import { Outlet } from "react-router-dom";
 
-const Layout = () => {
+
+export default function Layout() {
   return (
-    <>
-      <Outlet />
-    </>
+    <div className="app-container">
+      <div className="mobile-frame">
+        <Outlet />
+      </div>
+    </div>
   );
-};
-
-export default Layout;
+}
