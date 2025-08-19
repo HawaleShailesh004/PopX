@@ -1,0 +1,28 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  font-family: "Rubik";
+}
+
+.mobile-frame {
+  width: 375px;
+
+  height: 95vh;
+  border: 1px solid rgb(136, 136, 136);
+
+  background: #F7F8F9;
+  overflow: hidden;
+  /* optional: looks more like a phone */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
