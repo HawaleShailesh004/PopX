@@ -16,12 +16,12 @@ import {
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<LandingPage />}>
-      <Route index element={<LandingPage />} />
-      <Route path="signup" element={<SignupPage />} />
-      <Route path="login" element={<LoginPage />} />
-      <Route path="profile" element={<ProfilePage />} />
-    </Route>
+    <>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/signup" element={<SignupPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/profile" element={<ProfilePage />} />
+    </>
   )
 );
 

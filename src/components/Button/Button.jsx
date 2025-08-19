@@ -1,11 +1,19 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({ text = "Button", bgColor, txtColor }) => {
+const Button = ({
+  onClick,
+  text = "Button",
+  bgColor,
+  txtColor,
+  type = "button",
+}) => {
   return (
     <button
+      type={type}
       className="primary-btn"
       style={{ backgroundColor: bgColor, color: txtColor }}
+      onClick={onClick}
     >
       {text}
     </button>

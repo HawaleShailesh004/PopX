@@ -1,0 +1,47 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  position: relative;
+
+}
+
+.input-label {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  z-index: 1;
+  background-color: white;
+  padding: 0px 13px 2px 5px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #6C25FF;
+}
+
+.input-box {
+  padding: 12px;
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 16px;
+
+  outline: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.input-box::placeholder {
+  color: #919191;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.input-box:focus {
+  border-color: #6C25FF;
+  box-shadow: 0 0 4px rgba(108, 37, 255, 0.3);
+}
