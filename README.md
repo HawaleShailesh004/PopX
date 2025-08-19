@@ -19,7 +19,7 @@ This project is a qualifier task assignment built with **React.js** based on the
 - CSS  
 
 ## Folder Structure 
-
+```bash
 ├── public/ # Static images
 ├── src/
 │ ├── components/ # Reusable components
@@ -28,7 +28,7 @@ This project is a qualifier task assignment built with **React.js** based on the
 │ └── main.jsx # React DOM render entry
 ├── package.json
 └── README.md
-
+```
 
 ## 🚀 Getting Started
 To run the project locally:  
